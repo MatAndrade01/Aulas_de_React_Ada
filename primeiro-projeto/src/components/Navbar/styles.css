@@ -1,18 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background-color: #222222;
-    color: white;
-    font-family: "Roboto", serif;
-}
-
-a {
-    text-decoration: none;
-}
 
 header {
     background-color: #333;
