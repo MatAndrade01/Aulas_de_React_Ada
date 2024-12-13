@@ -1,12 +1,13 @@
 import React from "react";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Article } from "./components/Article/Article";
+import { Counter } from "./components/Counter/Counter";
+// import { Article } from "./components/Article/Article";
 
 import './assets/styles/app.css';
 
-import dashboard from "./assets/images/dashboard.png";
-import vibrante from "./assets/images/Vibrant Portraits of 2020.png";
-import day36 from "./assets/images/36 Days of Malayalam type.png";
+// import dashboard from "./assets/images/dashboard.png";
+// import vibrante from "./assets/images/Vibrant Portraits of 2020.png";
+// import day36 from "./assets/images/36 Days of Malayalam type.png";
 
 // Componente em classe é uma classe que hera a classe do Component do React, e retorna HTML dentro do método render
 
@@ -17,7 +18,10 @@ class App extends React.Component {
     return (
       <>
       <Navbar />
-      <section id="articles">
+
+      <Counter />
+  
+      {/* <section id="articles">
       <Article 
         title="Designing Dashboards" 
         provider="Nasa" 
@@ -42,7 +46,8 @@ class App extends React.Component {
         description ="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus culpa consequuntur perferendis, voluptatum illum est quis vel a molestiae ducimus, maxime, ullam id voluptas assumenda dignissimos? Officiis est numquam dolor?"
         thubnail = {dashboard}
       />
-      </section>
+      </section> */}
+
       </>
     )
   }
